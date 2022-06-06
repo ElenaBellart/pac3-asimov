@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ca">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+<script type="module" src="app.js"></script>
+<title>Isaac Asimov</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo-flex">
+      <img class="logo-robot" src="img/logo-robots.webp" alt="Logo Robot Isaac Asimov">
+      <h1 class="logo-text">Isaac Asimov</h1>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html" class="selected">Inici</a></li>
+        <li><a href="biografia.html">Biografia</a></li>
+        <li><a href="llibres.html">Llibres</a></li>
+        <li><a href="enllasos.html">Enllaços</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<main>
+  <img class="perfil" id="asimov" src="img/Isaac.Asimov01.jpg" alt="Retrat d'Isaac Asimov de jove">
+  <div class="biografia-index">
+
+    <h2>ISAAC ASIMOV. Mestre de la ciència ficció</h2>
+    <p>El famós autor nord-americà d'obres de ficció va crear les tres lleis de la robòtica, amb què va pretendre
+      normalitzar la relació entre l'ésser humà i els robots. A més, algunes de les prediccions de futur s'han fet
+      realitat.</p>
+    <button onclick="window.location.href='/biografia.html'">Biografia</button>
+  </div>
+  <div class="quota-index">
+    <blockquote cite="https://citas.in/frases/56079-isaac-asimov-el-aspecto-mas-triste-de-la-vida-actual-es-que-la/">
+      "L'aspecte més trist de la vida actual és que la ciència guanya en coneixement més ràpidament que la societat
+      en sabiduria"
+      <p><span class="serif">Isaac Asimov</span></p>
+    </blockquote>
+
+  </div>
+  <div class="llibres-index">
+    <h2>Bibliografia</h2>
+    <p>Isaac Asimov és autor de més de <strong>500 texts</strong> sobre diversos temes: crítica literària, divulgació
+      científica,
+      psicologia, química,
+      bioquímica, matemàtiques, història, humor o poesia així com de 90.000 cartes i postals, el camp en què fou més
+      popular, però, fou el de la <strong>ciència-ficció</strong>.</p>
+    <h3>els més importants:</h3>
+    <div class="llibres-index-flex">
+      <a href="fundacio.html">
+        <div id="fundacio" class="llibres-index-detall">
+          <p>La fundació</p>
+        </div>
+      </a>
+      <a href="llibres.html">
+        <div id="robots" class="llibres-index-detall">
+          <p>Jo robot</p>
+        </div>
+      </a>
+    </div>
+    <button onclick="window.location.href='/llibres.html'">Més llibres</button>
+  </div>
+
+
+
+</main>
+<footer>
+  <div class="footer-flex">
+    <div class="footer-logo">
+      <img class="logo-robot" src="img/logo-robots.webp" alt="Logo Robot Isaac Asimov">
+    </div>
+  
+    <div class="footer-enllasos">
+      <ul class="nav-footer">
+        <li><a href="index.html" class="selected">Inici</a></li>
+        <li><a href="biografia.html">Biografia</a></li>
+        <li><a href="llibres.html">Llibres</a></li>
+        <li><a href="enllasos.html">Enllaços</a></li>
+      </ul>
+      <ul class="nav-social">
+        <li><a href="#" title="El nostre Instagram"><em class="fa-brands fa-instagram fa-2x"></em></a></li>
+        <li><a href="#" title="El nostre Twitter"><em class="fa-brands fa-twitter fa-2x"></em></a></li>
+        <li><a href="#" title="El nostre Youtube"><em class="fa-brands fa-youtube fa-2x"></em></a></li>
+      </ul>
+    </div>
+  </div>
+    <address>
+      <p>Activitat realitzada per Elena Bellart, per a l'assignatura Eines HTML i CSS I</p>
+    </address>
+  </footer>
+</body>
+</html>
